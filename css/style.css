@@ -1,27 +1,44 @@
 body {
     font-family: sans-serif;
 }
+
+
 /* header  */
 header {
-    background-color: lightblue;
-}
-nav > div {
-    background-color: orange;
-    border: 1px dashed;
-    width: 25%;
-    padding: 5px;
-    margin: 16px 0 16px 0;
-}
-#link {
-    width: 50%;
-    text-align: center;
-}
-#login {
-    text-align: right;
+    background-color: #255EE9;
 }
 
+nav {
+    height: 50px;
+    padding: 10px 0;}
+
+#jumbo-line {
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+}
+
+#jumbo {   
+    width: 600px;
+    height: 400px;
+}
+
+#corpo-testo {margin: 30px 0;}
+
+.bottone {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#download:before {;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    background: url(../img/down-long.svg);
+    background-repeat: no-repeat;
+}
 /* righe  */
-.row {padding: 18px 0 18px 0;}
 .reverse{flex-direction: row-reverse;}
 .blu {background-color: #0f0f8a;}
 .white {background-color: white;}
@@ -29,12 +46,7 @@ nav > div {
 
 /* elementi */
 .item {
-    border: 1px dashed black ;
     height: 250px;
-}
-.rosa-rect {
-    width: 600px; 
-    background-color: #e687ed;
 }
 .car-rect{
     background-color: #f9c1cb;

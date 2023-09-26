@@ -18,6 +18,7 @@
 .flex-justify-around { justify-content: space-around; }
 .flex-justify-center { justify-content: center; }
 .flex-align-center { align-items: center; }
+.flex-end {justify-content: end;}
 
 .clearfix::after {
     content: "";
@@ -67,4 +68,25 @@
 .bg-aquamarine { background-color: aquamarine; }
 .bg-darkslategray { background-color: darkslategray; }
 .bg-lightgray { background-color: lightgray; }
-.bg-nome { background-color: nome; }
+.bg-white { background-color: white; }
+
+/*** DIMENSIONE TESTO ***/
+.fsize40 {font-size: 40px;}
+.fsize12 {font-size: 12px;}
+
+
+/*** COLORE TESTO ***/
+.cwhite {color: white;}
+.cblack {color: black;}
+
+
+/*** POSIZIONE TESTO ***/
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+.text-middle {vertical-align: middle;}
+
+/*** FORMATTAZIONE LINK ***/
+.link-none {text-decoration: none;}
+
+/*** MARGINI ***/
+.mo10 {margin: 0 10px;}
