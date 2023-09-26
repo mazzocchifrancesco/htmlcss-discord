@@ -3,9 +3,9 @@ body {
 }
 
 .container {
-	max-width: 1100px;
+	max-width: 1300px;
 	margin: 0 auto;
-    width: 900px;
+    width: 1200px;
 }
 
 /* header  */
@@ -49,9 +49,7 @@ nav {
 .grey {background-color: #d3d3d3;}
 
 /* elementi */
-.item {
-    height: 300px;
-}
+
 .text-rect{    width: calc(90%/3);}
 
 .pic-rect img {    width: 100%; }
@@ -62,19 +60,12 @@ nav {
 /* footer */
 footer {background-color: #24272a;
 }
-footer .row .container{
-    border: 1px dashed;
-}
+
 .small-rect {
-    background-color: #47b1a9;
-    width: calc(70%/4);
-    height: 350px;
-    border: 1px dashed white ;
+    width: calc(60%/4);
 }
 .double-small-rect {
-    background-color: #e68282;
-    width: 30%;
-    height:350px ;
+    width: 25%;
 }
 
 /* barra finale */
@@ -90,4 +81,8 @@ footer .row .container{
     border: 1px dashed;
     margin: 10px 0 10px 0;
     padding: 5px;
+}
+.double-small-rect img {
+    height: 14px;
+    fill: white;
 }

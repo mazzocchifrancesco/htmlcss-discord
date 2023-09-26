@@ -13,7 +13,6 @@
 .flex-justify-center { justify-content: center; }
 .flex-align-center { align-items: center; }
 .flex-end {justify-content: end;}
-.flex-stretch {align-items: stretch;}
 .flex-baseline {vertical-align: baseline;}
 
 .clearfix::after {
@@ -41,6 +40,10 @@
 .pb-16 { padding-bottom: 16px; }
 .pl-16 { padding-left: 16px; }
 .py-16 { padding: 16px 0; }
+.py-6 { padding: 6px 0; }
+.px-6 { padding: 0 6px; }
+
+
 .py-50 { padding: 50px 0; }
 
 .px-16 { padding: 0 16px; }
@@ -67,11 +70,14 @@
 .bg-darkslategray { background-color: darkslategray; }
 .bg-lightgray { background-color: lightgray; }
 .bg-white { background-color: white; }
+.bg-discord { background-color: #7289da;}
 
 /*** DIMENSIONE TESTO ***/
 .fsize12 {font-size: 12px;}
+.fsize14 {font-size: 14px;}
 .fsize17 {font-size: 17px;}
 .fsize24 {font-size: 24px;}
+.fsize30 {font-size: 30px;}
 .fsize35 {font-size: 35px;}
 .fsize40 {font-size: 40px;}
 .fsize48 {font-size: 48px;}
@@ -88,6 +94,7 @@
 /*** COLORE TESTO ***/
 .cwhite {color: white;}
 .cblack {color: black;}
+.cdiscord {color:#7289da}
 
 
 /*** POSIZIONE TESTO ***/
@@ -99,7 +106,14 @@
 .link-none {text-decoration: none;}
 
 /*** MARGINI ***/
-.mo10 {margin: 0 10px;}
+.mx10 {margin: 0 10px;}
+.my10 {margin: 10px 0;}
+.my20 {margin: 20px 0;}
+
+
+.mauto {margin: auto;}
+
+
 
 /*** BACKGROUND ***/
 
