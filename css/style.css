@@ -27,7 +27,8 @@ nav {
 }
 #corpo-testo {margin: 30px 0;}
 .bottone {
-    padding: 10px 20px;
+    display: inline-block;
+    padding: 10px 25px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -76,12 +77,7 @@ footer {background-color: #24272a;
     background-color: #94fdd4;
     margin-top: 16px;
 }
-.bottoni > div {
-    background-color: #f8b9c6;
-    border: 1px dashed;
-    margin: 10px 0 10px 0;
-    padding: 5px;
-}
+
 .double-small-rect img {
     height: 14px;
     fill: white;
