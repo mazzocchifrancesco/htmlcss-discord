@@ -1,7 +1,12 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+    width: 900px;
+}
 
 /* header  */
 header {
@@ -16,20 +21,18 @@ nav {
     background-image: url(../img/jumbo.png);
     background-size:cover;
 }
-
 #jumbo {   
     width: 600px;
     height: 400px;
 }
-
 #corpo-testo {margin: 30px 0;}
-
 .bottone {
     padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
 }
-#download:before {;
+
+#download:before {
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -39,6 +42,7 @@ nav {
     background-repeat: no-repeat;
 }
 /* righe  */
+
 .reverse{flex-direction: row-reverse;}
 .blu {background-color: #0f0f8a;}
 .white {background-color: white;}
@@ -46,21 +50,14 @@ nav {
 
 /* elementi */
 .item {
-    height: 250px;
+    height: 300px;
 }
-.car-rect{
-    background-color: #f9c1cb;
-    width: calc(100%/3);
-}
-.blu-rect{
-    background-color: #4492fd;
-    width: calc((100%/3)*2);
-}
-.gr-rect {
-    height: 500px;
-    background-color: green;
-    width: 100%;
-}
+.text-rect{    width: calc(90%/3);}
+
+.pic-rect img {    width: 100%; }
+
+.pic-rect{  width: calc((90%/3)*2); }
+.gr-rect img { width: 100%; }
 
 /* footer */
 footer {background-color: #24272a;
