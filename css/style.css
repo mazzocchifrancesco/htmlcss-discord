@@ -1,30 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body {
+    font-family: sans-serif;
 }
-
-/* centra tutta la colonna */
-.colonna {
-    width: 900px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-/* centra gli items */
-.centra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* clearfix */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 /* header  */
 header {
     background-color: lightblue;
@@ -77,7 +53,7 @@ nav > div {
 /* footer */
 footer {background-color: #24272a;
 }
-footer .row .colonna{
+footer .row .container{
     border: 1px dashed;
 }
 .small-rect {
