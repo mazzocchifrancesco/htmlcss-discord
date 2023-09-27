@@ -19,6 +19,8 @@ footer {background-color: #24272a;}
     width: 600px;
     height: 400px;
 }
+nav div a {line-height: 36px;
+vertical-align: middle;}
 
 .bottone {
     display: inline-block;
